@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    }
+    body{
+         
+        background-color: rgba(130, 252, 151, 0.555);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    
+    .container
+    {
+        position: relative;
+        width: 100%;
+        max-width: 1000px;
+        min-height:1000px ;
+        background: #fff;
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    }
+    .container .left-Side{
+        grid-column: span 1;
+        position: relative;
+        background-color: #0a6922;
+        padding: 25px;
+    }
+    
+    .texto-perfil{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+    
+    .texto-perfil .imagen-perfil img{
+       width: 100%;
+       height: 100%;
+       border-radius: 10px;
+    }
+    
+    .texto-perfil h2{
+        color: #fff;
+        font-size: 1.5em;
+        margin-top: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight:600 ;
+        line-height: 1.4em;
+    }
+    
+    .texto-perfil h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+    }
+    
+    .info-contacto{
+        font-family: Open Sans;
+        padding-top: 40px;
+        font-size: 1m;
+        color: #fff;
+        line-height: 2.4em;
+    }
+    
+    .info-contacto ul li{
+    list-style: none;
+    position: relative;
+    margin-top: 10px;
+    }
+    .info-contacto ul li .text{
+       font-family: Open Sans;
+       overflow: visible;
+       font-size: 0.9em;
+    }
+    
+    .info-contacto ul li .text-telefono{
+        font-family: Open Sans;
+        overflow: visible;
+        font-size: 1.1em;
+     }
+    
+     .info-contacto ul li .text-email{
+        font-family: Open Sans;
+        overflow: visible;
+        font-size: 1em;
+     }
+    
+     .info-contacto ul li .text-link{
+        font-family: Open Sans;
+        overflow: visible;
+        font-size: 1em;
+     }
+    
+    
+    .info-contacto ul li .icon{
+    width: 30px;
+    font-size: 20px;
+    color: #000000;
+    }
+
+    .lenguaje{
+        font-family: Open Sans;
+        font-size: 1m;
+        color: #fff;
+        line-height: 2.4em;
+    }
+
+    .ubicacion{
+        font-family: Open Sans;
+        padding-top: 20px;
+        font-size: 1m;
+        color: #fff;
+        line-height: 2.4em;
+    }
+
+    
+    .container .right-Side{
+        grid-column: span 2;
+        float: right ;
+        background-color:#fff ;
+        position: relative;    
+        padding: 40px;
+    }
+    
+    .container .right-Side .titulo2{
+        font-family: Open Sans;
+        text-transform: uppercase;
+        overflow: visible;
+        font-weight: 800;
+        text-align: center;
+        position:relative;
+        font-size: 1.5em;
+    }
+
+    .experiencia h2{
+        font-family: Open Sans;
+        text-transform: uppercase;
+        overflow: visible;
+        font-weight: 800;
+        position:relative;
+        font-size: 1.5em;
+    }
+
+    .experiencia p {
+        font-family: Open Sans;
+        font-size: 1.1em;
+    }
+    
+    .cuadro .tecnologia .logos img {
+        margin-top: 25px;
+       position: relative;
+       margin-right: 15px;
+       margin-left: 5px;
+    }
+    
+    .container .right-Side .study{
+        font-family: Open Sans;
+        margin-top: 20px;
+    }
+    
+    .right-Side .study .study-text p {
+        font-family: Open Sans;
+        font-size: 1.1em;
+    }
