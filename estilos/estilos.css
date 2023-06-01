@@ -18,7 +18,7 @@
         position: relative;
         width: 100%;
         max-width: 1000px;
-        min-height:1000px ;
+        min-height:900px ;
         background: #fff;
         margin: 50px;
         display: grid;
@@ -121,7 +121,7 @@
         line-height: 2.4em;
     }
 
-    
+
     .container .right-Side{
         grid-column: span 2;
         float: right ;
@@ -151,11 +151,16 @@
 
     .experiencia p {
         font-family: Open Sans;
+        font-size: 1.2em;
+    }
+
+    .experiencia li{
+        font-family: Open Sans;
         font-size: 1.1em;
     }
     
     .cuadro .tecnologia .logos img {
-        margin-top: 25px;
+       margin-top: 25px;
        position: relative;
        margin-right: 15px;
        margin-left: 5px;
@@ -165,8 +170,19 @@
         font-family: Open Sans;
         margin-top: 20px;
     }
+
     
     .right-Side .study .study-text p {
         font-family: Open Sans;
         font-size: 1.1em;
+    }
+
+    .container .right-Side .skills{
+        font-family: Open Sans;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .container .right-Side .skills h2{
+        margin-left: -20px;
     }
